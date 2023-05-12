@@ -4,22 +4,72 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- link css -->
+  <link rel="stylesheet" href="style.css">
+
+  
+  <!-- link javascript -->
+
+<script>
+
+alert ("You will need to enter your name")
+
+let person = prompt("Please enter your name");
+let errorMsg = "Invalid username, please try again";
+let returntext;
+
+
+
+
+if (person == null || person == "") {
+  returntext = errorMsg;
+
+
+} else if 
+
+(person.toLowerCase() === "sang") {
+
+
+  returntext = 'Welcome back admin';
+} 
+
+
+else {
+
+  returntext = "Welcome " + person + " to my site";
+}
+
+alert(returntext);
+
+
+
+
+
+
+
+
+
+
+</script>
+
+  
   <title>Document</title>
 </head>
 <body>
   <header>
     <h1>Sang and co . food review blog</h1>
     <nav>
-      <ul>
-        <li>about us</li>
-        <li>Food review</li>
-        <li>contact</li>
+      <ul class="header-nav">
+        <li><a href=""></a>About Us</li>
+        <li><a href=""></a>Food Review</li>
+        <li><a href=""></a>Contact Us</li>
       </ul>
     </nav>
   </header>
   <section>
     <h2>manual for your meal</h2>
-    <img src="https://miro.com/app/board/uXjVMKKb0rQ=/?moveToWidget=3458764553994288076&cot=14" alt="test img for food review">
+    <img src="https://vnn-imgs-a1.vgcloud.vn/znews-photo.zadn.vn/Uploaded/aeixrdbkxq/2021_04_27/4.jpg" alt="test img for food review">
   </section>
 
   <section class=" main-page-coordinator">
@@ -67,7 +117,7 @@
   </section>
 
   <footer>
-    Sang and Co. 2023
+    &copy; Sang and Co. 2023
   </footer>
   
 </body>
